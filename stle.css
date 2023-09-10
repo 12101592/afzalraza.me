@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:ital,wght@1,600&family=Roboto:wght@100;500&family=Ubuntu:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:ital,wght@0,700;1,600&family=Roboto:wght@100;500&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(42, 42, 42);
+  height: 50px;
+  /* width: 100vw; */
+  /* position: fixed; */
+  box-shadow: 0px 19px 38px 0px rgba(0, 0, 0, 0.3);
+  
+}
+
+.right {
+  margin-left: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.right a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.left {
+  padding: 20px;
+  display: flex;
+}
+
+.left ul {
+  display: flex;
+  gap: 50px;
+}
+
+.left ul li {
+  display: flex;
+  list-style: none;
+
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.search {
+  height: 23px;
+  /* background-color: rgba(139, 162, 154, 0.466); */
+
+  border: 2px;
+  border-radius: 3px;
+  background-color: rgb(241, 235, 231);
+
+}
+
+.btn {
+
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 3px;
+  border-radius: 3px;
+  /* background-image: url(Snapchat-1846703556-modified.png); */
+
+  background-color: chocolate;
+}
+
+.about-me {
+  /* background-color: rgb(101, 35, 35); */
+  height: 500px;
+  display: flex;
+  margin-top: 30px;
+
+  align-items: center;
+
+}
+
+.rightimage {
+
+  /* background-color: rgb(26, 76, 120); */
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 5px;
+
+}
+
+img {
+  height: 300px;
+  width: fit-content;
+  border: 3px solid black;
+  border-radius: 30%;
+  /* opacity: 0.5; */
+}
+
+.leftme {
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+.leftme p {
+  margin-top: 10px;
+}
+
+.resume {
+  text-decoration: none;
+  color: white;
+
+}
+
+.btn2 {
+  margin-top: 10px;
+  padding: 10px;
+  border: 3px;
+  border-radius: 3px;
+  background-color: rgb(43, 20, 4);
+}
+
+.project{
+  background-color:chocolate;
+  height: 250px;
+  /* width: 300px; */
+  display: flex;
+  /* flex-direction: column; */
+  color: wheat;
+  justify-content: center;
+  
+}
+
+
+.project-card{
+  /* background-color: rgb(140, 140, 178); */
+  /* box-shadow: 0px 19px 38px 0px rgba(0, 0, 0, 0.3); */
+  height: 150px;
+  width: 150px;
+  display: flex;
+ color: white;
+  justify-content: center;
+  align-items: center;
+  margin:60px;
+background-color: ;
+  font-family: sans-serif;
+}
